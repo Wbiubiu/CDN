@@ -1820,7 +1820,7 @@ $(function () {
     $(document).on("click", ".specsZan", function () {
         $(this).postLike();
     });
-//console.log("%c Mashiro %c", "background:#24272A; color:#ffffff", "", "https://2heng.xin/");
+ //console.log("%c Mashiro %c", "background:#24272A; color:#ffffff", "", "https://2heng.xin/");
  //   console.log("%c hojun %c", "background:#24272A; color:#ffffff", "", "https://www.hojun.cn/");
  //   console.log("%c Github %c", "background:#24272A; color:#ffffff", "", "https://github.com/honjun/hexo-theme-sakura");
 });
