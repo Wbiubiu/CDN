@@ -984,7 +984,7 @@ var pjaxInit = function () {
     timeSeriesReload();
     add_copyright();
     tableOfContentScroll(flag = true);
-    console.log($("#myscript").text());
+    //console.log($("#myscript").text());
 }
 $(document).on("click", ".sm", function () {
     var msg = "您真的要设为私密吗？";
@@ -1820,9 +1820,9 @@ $(function () {
     $(document).on("click", ".specsZan", function () {
         $(this).postLike();
     });
-    console.log("%c Mashiro %c", "background:#24272A; color:#ffffff", "", "https://2heng.xin/");
-    console.log("%c hojun %c", "background:#24272A; color:#ffffff", "", "https://www.hojun.cn/");
-    console.log("%c Github %c", "background:#24272A; color:#ffffff", "", "https://github.com/honjun/hexo-theme-sakura");
+//console.log("%c Mashiro %c", "background:#24272A; color:#ffffff", "", "https://2heng.xin/");
+ //   console.log("%c hojun %c", "background:#24272A; color:#ffffff", "", "https://www.hojun.cn/");
+ //   console.log("%c Github %c", "background:#24272A; color:#ffffff", "", "https://github.com/honjun/hexo-theme-sakura");
 });
 var isWebkit = navigator.userAgent.toLowerCase().indexOf('webkit') > -1,
     isOpera = navigator.userAgent.toLowerCase().indexOf('opera') > -1,
@@ -1919,7 +1919,7 @@ function aplayerF() {
                 for (var f = 0; f < aplayers.length; f++) try {
                     aplayers[f].lrc.hide();
                 } catch (a) {
-                    console.log(a)
+                    //console.log(a)
                 }
                 var lrcTag = 1;
                 $(".aplayer.aplayer-fixed").click(function () {
@@ -1927,7 +1927,7 @@ function aplayerF() {
                         for (var f = 0; f < aplayers.length; f++) try {
                             aplayers[f].lrc.show();
                         } catch (a) {
-                            console.log(a)
+                            //console.log(a)
                         }
                     }
                     lrcTag = 2;
@@ -1949,7 +1949,7 @@ function aplayerF() {
             for (var f = 0; f < aplayers.length; f++) try {
                 aplayers[f].destroy()
             } catch (a) {
-                console.log(a)
+                //console.log(a)
             }
             aplayers = [];
             for (var c = document.querySelectorAll('.aplayer'), d = function () {
