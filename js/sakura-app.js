@@ -509,7 +509,7 @@ function code_highlight_style() {
             'autocapitalize': 'off',
             'spellcheck': 'false',
             'contenteditable': 'false',
-            'design': 'by hojun'
+            'design': 'by lele'
         }
         var ele_name = $('pre:eq(' + i + ')')[0].children[0].className;
         var lang = ele_name.substr(0, ele_name.indexOf(" ")).replace('language-', '');
@@ -1820,9 +1820,9 @@ $(function () {
     $(document).on("click", ".specsZan", function () {
         $(this).postLike();
     });
-  console.log('%c guaika %c', 'background:#24272A; color:#ffffff', '', 'http://guaika0.com/');
-  console.log('%c lele %c', 'background:#24272A; color:#ffffff', '', 'https://wbb88.top/');
-  console.log('%c wangyiyun %c', 'background:#24272A; color:#ffffff', '', 'https://music.163.com/#/user/home?id=1512222484');
+    //console.log("%c Mashiro %c", "background:#24272A; color:#ffffff", "", "https://2heng.xin/");
+    //console.log("%c hojun %c", "background:#24272A; color:#ffffff", "", "https://www.hojun.cn/");
+    //console.log("%c Github %c", "background:#24272A; color:#ffffff", "", "https://github.com/honjun/hexo-theme-sakura");
 });
 var isWebkit = navigator.userAgent.toLowerCase().indexOf('webkit') > -1,
     isOpera = navigator.userAgent.toLowerCase().indexOf('opera') > -1,
